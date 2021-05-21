@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/afzal-khan-89/vts-web/routs"
+	"github.com/afzal-khan-89/vts-web/routes"
 )
 
 func main() {
 	fmt.Println("hello go ")
-	routs.RoutTest()
+	routes.RoutTest()
 }
