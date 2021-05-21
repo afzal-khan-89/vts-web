@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main(){
+	"github.com/afzal-khan-89/vts-web/routs"
+)
+
+func main() {
 	fmt.Println("hello go ")
+	routs.RoutTest()
 }
